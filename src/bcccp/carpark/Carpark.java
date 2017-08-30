@@ -52,7 +52,10 @@ public class Carpark implements ICarpark {
 
 	@Override
 	public boolean isFull() {
-		if(capacity == numberOfCarsParked )
+		if(numberOfCarsParked == capacity )
+		{
+			System.out.println("Car Park Full");
+		}
 		return false;
 	}
 
