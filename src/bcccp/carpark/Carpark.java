@@ -68,7 +68,10 @@ public class Carpark implements ICarpark {
 
 	@Override
 	public void recordAdhocTicketEntry() {
-		// TODO Auto-generated method stub
+		  DateTime dt = new DateTime();
+  		int month = dt.getMonthOfYear();
+		numberOfCarsParked++;
+		isFull();
 		
 	}
 
