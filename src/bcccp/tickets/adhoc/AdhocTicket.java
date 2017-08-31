@@ -1,3 +1,4 @@
+
 package bcccp.tickets.adhoc;
 
 import java.util.Date;
@@ -16,6 +17,9 @@ public class AdhocTicket implements IAdhocTicket {
 	
 	public AdhocTicket(String carparkId, int ticketNo, String barcode) {
 		//TDO Implement constructor
+		carparkId = carparkId;
+		ticketNo = ticketNo;
+		barcode = barcode;
 	}
 
 
