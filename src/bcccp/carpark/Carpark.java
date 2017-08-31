@@ -21,7 +21,10 @@ public class Carpark implements ICarpark {
 	public Carpark(String name, int capacity, 
 			IAdhocTicketDAO adhocTicketDAO, 
 			ISeasonTicketDAO seasonTicketDAO) {
-		//TODO Implement constructor
+		carparkId = name;
+		capacity = capacity; 
+		adhocTicketDAO = adhocTicketDAO;
+		seasonTicketDAO = seasonTicketDAO;
 	}
 
 
