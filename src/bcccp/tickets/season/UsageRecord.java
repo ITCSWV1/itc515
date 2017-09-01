@@ -28,6 +28,7 @@ public class UsageRecord implements IUsageRecord {
 
 
 	@Override
+	//returns the starttime
 	public long getStartTime() {
 		// TODO Auto-generated method stub
 		return (startDateTime);;
