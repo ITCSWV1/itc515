@@ -67,6 +67,7 @@ public class AdhocTicket implements IAdhocTicket {
 
 
 	@Override
+	// to estimate the time and the amount
 	public void pay(long dateTime, float charge) {
 		// TODO Auto-generated method stub
 		paidDateTime = dateTime;
