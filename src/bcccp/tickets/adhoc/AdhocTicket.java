@@ -16,34 +16,37 @@ public class AdhocTicket implements IAdhocTicket {
 	
 	public AdhocTicket(String carparkId, int ticketNo, String barcode) {
 		//TDO Implement constructor
+		carparkId = carparkId;
+		ticketNo = ticketNo;
+		barcode = barcode;	
 	}
 
 
 	@Override
 	public int getTicketNo() {
 		// TODO Auto-generated method stub
-		return 0;
+		return ticketNo;
 	}
 
 
 	@Override
 	public String getBarcode() {
 		// TODO Auto-generated method stub
-		return null;
+		return barcode;
 	}
 
 
 	@Override
 	public String getCarparkId() {
 		// TODO Auto-generated method stub
-		return null;
+		return carparkId;
 	}
 
 
 	@Override
 	public void enter(long dateTime) {
 		// TODO Auto-generated method stub
-		
+		paidDateTime = dateTime;
 	}
 
 
@@ -64,7 +67,8 @@ public class AdhocTicket implements IAdhocTicket {
 	@Override
 	public void pay(long dateTime, float charge) {
 		// TODO Auto-generated method stub
-		
+		paidDateTime = dateTime;
+		charge = charge;
 	}
 
 
