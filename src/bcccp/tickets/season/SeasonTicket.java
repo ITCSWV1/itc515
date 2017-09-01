@@ -14,6 +14,7 @@ public class SeasonTicket implements ISeasonTicket {
 	private long startValidPeriod;
 	private long endValidPeriod;
 	
+	//Constructor to intialize the object
 	public SeasonTicket (String ticketId, 
 			             String carparkId, 
 			             long startValidPeriod,
