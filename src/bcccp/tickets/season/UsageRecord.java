@@ -18,6 +18,7 @@ public class UsageRecord implements IUsageRecord {
 
 
 	@Override
+	//to update the endDateTime
 	public void finalise(long endDateTime) {
 		// TODO Auto-generated method stub
 		endDateTime = endDateTime;
