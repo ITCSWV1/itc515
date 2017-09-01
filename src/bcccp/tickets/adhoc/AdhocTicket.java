@@ -45,6 +45,7 @@ public class AdhocTicket implements IAdhocTicket {
 
 
 	@Override
+	//to update the date and time
 	public void enter(long dateTime) {
 		// TODO Auto-generated method stub
 		paidDateTime = dateTime;
