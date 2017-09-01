@@ -8,7 +8,7 @@ public class UsageRecord implements IUsageRecord {
 	long endDateTime;
 	
 	
-	
+	//Constructor to intialize the variables
 	public UsageRecord(String ticketId, long startDateTime) {
 		//TODO Implement constructor
 		ticketId = ticketId;
