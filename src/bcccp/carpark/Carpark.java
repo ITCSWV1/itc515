@@ -55,6 +55,7 @@ public class Carpark implements ICarpark {
 
 
 	@Override
+	//to check if the carpark capacity is full
 	public boolean isFull() {
 		// TODO Auto-generated method stub
 		if( numberOfCarsParked < capacity)
