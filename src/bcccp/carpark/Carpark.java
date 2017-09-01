@@ -21,10 +21,10 @@ public class Carpark implements ICarpark {
 	public Carpark(String name, int capacity, 
 			IAdhocTicketDAO adhocTicketDAO, 
 			ISeasonTicketDAO seasonTicketDAO) {
-		carparkId = name;
-		capacity = capacity; 
-		adhocTicketDAO = adhocTicketDAO;
-		seasonTicketDAO = seasonTicketDAO;
+		carparkId = name;				//Updating carparkID with name
+		capacity = capacity; 				//updating capacity
+		adhocTicketDAO = adhocTicketDAO;		//updating adhocTicketDAO
+		seasonTicketDAO = seasonTicketDAO;		//updating seasonTicketDAO
 	}
 
 
