@@ -46,9 +46,10 @@ public class Carpark implements ICarpark {
 
 
 	@Override
+	// Method returns the Name of the car
 	public String getName() {
 		// TODO Auto-generated method stub
-		return null;
+		return carparkId;
 	}
 
 
