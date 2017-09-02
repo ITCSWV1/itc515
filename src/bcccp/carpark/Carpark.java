@@ -21,7 +21,10 @@ public class Carpark implements ICarpark {
 	public Carpark(String name, int capacity, 
 			IAdhocTicketDAO adhocTicketDAO, 
 			ISeasonTicketDAO seasonTicketDAO) {
-		//TODO Implement constructor
+		carparkId = name;				//Updating carparkID with name
+		capacity = capacity; 				//updating capacity
+		adhocTicketDAO = adhocTicketDAO;		//updating adhocTicketDAO
+		seasonTicketDAO = seasonTicketDAO;		//updating seasonTicketDAO
 	}
 
 
@@ -43,20 +46,24 @@ public class Carpark implements ICarpark {
 
 
 	@Override
+	// Method returns the Name of the car
 	public String getName() {
 		// TODO Auto-generated method stub
-		return null;
+		return carparkId;
 	}
 
 
 
 	@Override
+	//to check if the carpark capacity is full
 	public boolean isFull() {
-		if(numberOfCarsParked == capacity )
+// TODO Auto-generated method stub
+		if(numberOfCarsParked <= capacity )
 		{
-			System.out.println("Car Park Full");
+			
+		return true;
 		}
-		return false;
+		else true;
 	}
 
 

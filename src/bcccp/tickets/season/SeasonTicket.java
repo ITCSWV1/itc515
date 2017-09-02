@@ -14,11 +14,16 @@ public class SeasonTicket implements ISeasonTicket {
 	private long startValidPeriod;
 	private long endValidPeriod;
 	
+	//Constructor to intialize the object
 	public SeasonTicket (String ticketId, 
 			             String carparkId, 
 			             long startValidPeriod,
 			             long endValidPeriod) {
 		//TDO Implement constructor
+		ticketId = ticketId;
+		carparkId = carparkId;
+		startValidPeriod = startValidPeriod;
+		endValidPeriod = endValidPeriod;
 	}
 
 	@Override
